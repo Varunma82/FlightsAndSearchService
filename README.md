@@ -19,6 +19,8 @@
 }
     ```
     - once you have added your db config as listed above , go to the src folder from your terminal and execute `npx sequelize db:create`
+
+    `npx sequelize db:migrate`
     ```
     ```
 ## DB Design
@@ -36,4 +38,3 @@
     - A city has many airport but one airport belongs to a city
     - One airport can have many flights, but a flight belongs to one airport
 
-    
